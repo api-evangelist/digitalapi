@@ -30,6 +30,10 @@ apis:
       - type: Documentation
         url: https://www.digitalapi.ai/docs
 common:
+  - type: GitHubOrganization
+    url: https://github.com/DigitalAPI
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/digitalapi
   - type: Website
     url: https://www.digitalapi.ai
   - type: Blog
