@@ -1,0 +1,124 @@
+# DigitalAPI
+
+## Home
+
+- [DigitalAPI Developer](https://docs.digitalapi.ai/readme.md)
+
+## Marketplace
+
+- [Introduction](https://docs.digitalapi.ai/marketplace/introduction.md)
+- [Overview](https://docs.digitalapi.ai/marketplace/overview.md)
+- [Getting started](https://docs.digitalapi.ai/marketplace/getting-started.md)
+- [Foundations](https://docs.digitalapi.ai/marketplace/concepts/concept-foundations.md)
+- [Architecture & platform](https://docs.digitalapi.ai/marketplace/concepts/concept-architecture.md)
+- [Connecting sources](https://docs.digitalapi.ai/marketplace/concepts/concept-connecting-sources.md)
+- [API governance](https://docs.digitalapi.ai/marketplace/concepts/concept-governance.md)
+- [Publishing & productizing](https://docs.digitalapi.ai/marketplace/concepts/concept-publishing.md)
+- [Consumer experience](https://docs.digitalapi.ai/marketplace/concepts/concept-consumer-experience.md)
+- [Analytics & reporting](https://docs.digitalapi.ai/marketplace/concepts/concept-analytics.md)
+- [Monetization](https://docs.digitalapi.ai/marketplace/concepts/concept-monetization.md)
+- [AI & MCP](https://docs.digitalapi.ai/marketplace/concepts/concept-ai-mcp.md)
+- [Administration](https://docs.digitalapi.ai/marketplace/concepts/concept-administration.md)
+- [Features](https://docs.digitalapi.ai/marketplace/how-to-guides/features.md)
+- [Gateway connections](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-gateway-connections.md)
+- [Documentation & repository sources](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-documentation-sources.md)
+- [Importing APIs](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-importing-apis.md)
+- [API governance](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-api-governance.md)
+- [Publishing APIs](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-publishing-apis.md)
+- [API Products & Plans](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-products-and-plans.md)
+- [Subscriptions](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-subscriptions.md)
+- [Consumer apps & credentials](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-apps-and-credentials.md)
+- [Provider analytics](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-provider-analytics.md)
+- [Monetization](https://docs.digitalapi.ai/marketplace/how-to-guides/features/monetization.md)
+- [MCP servers](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-mcp-servers.md)
+- [API GPT assistant](https://docs.digitalapi.ai/marketplace/how-to-guides/features/feat-api-gpt.md)
+- [Administration](https://docs.digitalapi.ai/marketplace/how-to-guides/administration.md)
+- [Team & members](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-team-and-members.md)
+- [Roles & permissions](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-roles-and-permissions.md)
+- [Single sign-on (SAML)](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-single-sign-on.md)
+- [Branding & theming](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-branding-and-theming.md)
+- [Custom domains](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-custom-domains.md)
+- [Notifications](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-notifications.md)
+- [Webhooks](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-webhooks.md)
+- [Email templates](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-email-templates.md)
+- [Content & pages](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-content-and-pages.md)
+- [Governance rules](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-governance-rules.md)
+- [Search configuration](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-search.md)
+- [Audit log](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-audit-log.md)
+- [Feature toggles](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-feature-toggles.md)
+- [App Builder](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/feat-app-builder.md)
+- [Settings](https://docs.digitalapi.ai/marketplace/how-to-guides/administration/settings.md)
+- [Reference](https://docs.digitalapi.ai/marketplace/reference/reference.md)
+- [Troubleshooting](https://docs.digitalapi.ai/marketplace/reference/troubleshooting.md)
+- [FAQs](https://docs.digitalapi.ai/marketplace/reference/faqs.md)
+- [Additional resources](https://docs.digitalapi.ai/marketplace/reference/additional-resources.md)
+- [Glossary](https://docs.digitalapi.ai/marketplace/reference/glossary.md)
+
+## API Gateway
+
+- [Introduction](https://docs.digitalapi.ai/api-gateway/introduction.md)
+- [Overview](https://docs.digitalapi.ai/api-gateway/overview.md)
+- [Getting started](https://docs.digitalapi.ai/api-gateway/getting-started.md)
+- [API Gateway](https://docs.digitalapi.ai/api-gateway/api-gateway/api-gateway.md)
+- [Defining APIs](https://docs.digitalapi.ai/api-gateway/api-gateway/defining-apis.md)
+- [Configuring upstreams](https://docs.digitalapi.ai/api-gateway/api-gateway/configuring-upstreams.md)
+- [Browsing the plugin catalogue](https://docs.digitalapi.ai/api-gateway/api-gateway/browsing-the-plugin-catalogue.md)
+- [Working with environments](https://docs.digitalapi.ai/api-gateway/api-gateway/working-with-environments.md)
+- [Observability](https://docs.digitalapi.ai/api-gateway/observability/observability.md)
+- [Building custom widgets](https://docs.digitalapi.ai/api-gateway/observability/building-custom-widgets.md)
+- [Investigating with request traces](https://docs.digitalapi.ai/api-gateway/observability/investigating-with-request-traces.md)
+- [Building custom reports](https://docs.digitalapi.ai/api-gateway/observability/building-custom-reports.md)
+- [Setup](https://docs.digitalapi.ai/api-gateway/setup/setup.md)
+- [Managing your organisation](https://docs.digitalapi.ai/api-gateway/setup/managing-your-organisation.md)
+- [Inviting and managing users](https://docs.digitalapi.ai/api-gateway/setup/inviting-and-managing-users.md)
+- [Working with groups](https://docs.digitalapi.ai/api-gateway/setup/working-with-groups.md)
+- [Defining roles and permissions](https://docs.digitalapi.ai/api-gateway/setup/defining-roles-and-permissions.md)
+- [Configuring SAML authentication](https://docs.digitalapi.ai/api-gateway/setup/configuring-saml-authentication.md)
+- [Settings & administration](https://docs.digitalapi.ai/api-gateway/setup/settings.md)
+- [Reference](https://docs.digitalapi.ai/api-gateway/reference/reference.md)
+- [Troubleshooting](https://docs.digitalapi.ai/api-gateway/reference/troubleshooting.md)
+- [FAQs](https://docs.digitalapi.ai/api-gateway/reference/faqs.md)
+- [Additional resources](https://docs.digitalapi.ai/api-gateway/reference/additional-resources.md)
+- [Glossary](https://docs.digitalapi.ai/api-gateway/reference/glossary.md)
+- [Plugin reference](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugin-reference.md)
+- [Authentication plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-authentication.md)
+- [Traffic plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-traffic.md)
+- [Transformation plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-transformation.md)
+- [Security plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-security.md)
+- [Observability plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-observability.md)
+- [AI plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-ai.md)
+- [General plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-general.md)
+- [Serverless plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-serverless.md)
+- [Other protocols plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-other-protocols.md)
+- [Miscellaneous plugins](https://docs.digitalapi.ai/api-gateway/plugin-reference/plugins-miscellaneous.md)
+- [API reference](https://docs.digitalapi.ai/api-gateway/api-reference/api-reference.md)
+- [Service and route spec reference](https://docs.digitalapi.ai/api-gateway/api-reference/service-route-spec-reference.md)
+
+## Developer Portal
+
+- [Introduction](https://docs.digitalapi.ai/developer-portal/introduction.md)
+- [Getting started](https://docs.digitalapi.ai/developer-portal/getting-started.md)
+- [Discovering APIs](https://docs.digitalapi.ai/developer-portal/discover-apis/discovering-apis.md)
+- [Exploring an API](https://docs.digitalapi.ai/developer-portal/discover-apis/exploring-an-api.md)
+- [Signing up and signing in](https://docs.digitalapi.ai/developer-portal/subscribe-and-get-access/signing-up-and-signing-in.md)
+- [Subscribing to APIs and Products](https://docs.digitalapi.ai/developer-portal/subscribe-and-get-access/requesting-a-subscription.md)
+- [Managing applications and credentials](https://docs.digitalapi.ai/developer-portal/subscribe-and-get-access/managing-apps-and-credentials.md)
+- [Testing an API](https://docs.digitalapi.ai/developer-portal/test-and-track-usage/testing-an-api.md)
+- [App analytics and usage](https://docs.digitalapi.ai/developer-portal/test-and-track-usage/app-analytics.md)
+- [Developer resources](https://docs.digitalapi.ai/developer-portal/resources/developer-resources.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.digitalapi.ai/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

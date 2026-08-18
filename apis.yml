@@ -1,9 +1,7 @@
 aid: digitalapi
 name: DigitalAPI
-description: >-
-  DigitalAPI is an API catalog, marketplace, and management platform that
-  unifies APIs across multiple gateways into a single searchable catalog
-  with governance, discovery, access control, and analytics.
+description: DigitalAPI is an API catalog, marketplace, and management platform that unifies APIs across
+  multiple gateways into a single searchable catalog with governance, discovery, access control, and analytics.
 type: Index
 accessModel:
   pricing: freemium
@@ -19,39 +17,73 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digitalapi.png
 tags:
-  - API Aggregation
-  - API Catalog
-  - API Marketplace
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/digitalapi/refs/heads/main/apis.yml
+- API Aggregation
+- API Catalog
+- API Marketplace
+url: https://raw.githubusercontent.com/api-evangelist/digitalapi/refs/heads/main/apis.yml
 created: '2026-03-26'
-modified: '2026-04-28'
+modified: '2026-08-18'
 specificationVersion: '0.19'
 apis:
-  - aid: digitalapi:digitalapi
-    name: DigitalAPI
-    description: >-
-      DigitalAPI is an API catalog, marketplace, and management platform
-      that unifies APIs across multiple gateways into a single searchable
-      catalog with governance, discovery, access control, and analytics.
-    humanURL: https://www.digitalapi.ai
-    tags:
-      - API Catalog
-      - API Marketplace
-    properties:
-      - type: Documentation
-        url: https://www.digitalapi.ai/docs
+- aid: digitalapi:digitalapi
+  name: DigitalAPI
+  description: DigitalAPI is an API catalog, marketplace, and management platform that unifies APIs across
+    multiple gateways into a single searchable catalog with governance, discovery, access control, and
+    analytics.
+  humanURL: https://www.digitalapi.ai
+  tags:
+  - API Catalog
+  - API Marketplace
+  properties:
+  - type: Documentation
+    url: https://docs.digitalapi.ai/
 common:
-  - type: DomainSecurity
-    url: security/digitalapi-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/DigitalAPI
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/digitalapi
-  - type: Website
-    url: https://www.digitalapi.ai
-  - type: Blog
-    url: https://www.digitalapi.ai/blogs
+- type: DomainSecurity
+  url: security/digitalapi-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/digitalapicraft
+- type: LinkedIn
+  url: https://www.linkedin.com/company/digitalapi
+- type: Website
+  url: https://www.digitalapi.ai
+- type: Blog
+  url: https://www.digitalapi.ai/blogs
+- type: Documentation
+  url: https://docs.digitalapi.ai/
+- type: LlmsText
+  url: https://docs.digitalapi.ai/llms.txt
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+x-evidence:
+  round: '2026-08-18'
+  trigger: CEO Bharath Kumar messaged Kin on LinkedIn announcing the API Gateway with Agent Mode. Entry
+    was last touched 2026-04-28.
+  corrected:
+    GitHubOrganization: Was https://github.com/DigitalAPI — a DIFFERENT COMPANY. That org was created
+      2016, is located in Atlanta, and its blog field is https://www.digitalapi.com/api/v1/docs (digitalapi.COM,
+      which serves "U-Capture Knowledge & Learning"). Its two repos are a PHP CodeIgniter library pointing
+      at support@digitalapi.com. Corrected to https://github.com/digitalapicraft — 9 repos, blog https://digitalapi.ai/.
+    Documentation: Was https://www.digitalapi.ai/docs, which returns 404. The live documentation host
+      is https://docs.digitalapi.ai/ (200, and a nonsense path there returns a real 404).
+  added:
+    LlmsText: https://docs.digitalapi.ai/llms.txt — 200 text/markdown, 10,440b, a real documentation index.
+      A llms-full.txt of 1,162,463b is also served. Both live on the docs subdomain, which is why an apex-only
+      harvest missed them entirely.
+  no_openapi:
+    finding: No OpenAPI describing DigitalAPI's own API was found anywhere.
+    probed:
+    - 'digitalapi.ai and www.digitalapi.ai: /openapi.json, /apis.json, /llms.txt, /.well-known/agent-card.json
+      — all 404 (host discriminates; a nonsense path also 404s)'
+    - 'docs.digitalapi.ai: /openapi.json, /api-reference, /_mcp/server — all 404'
+    - MCP probe (POST tools/list) against api.digitalapi.ai/mcp, digitalapi.ai/mcp, mcp.digitalapi.ai
+      — no server answering
+    specs_deliberately_NOT_credited: The digitalapicraft org holds OpenAPI files, and none of them describe
+      DigitalAPI. fiserv-dev-studio-apis holds FISERV's BankingHub specs, servers pointing at bankinghub-cert-fiservapis.azure-api.net
+      — a customer's API. sample-api-specifications is self-described sample material ("This is a sample
+      User management server"), contact shashank@dac.io. api-gateway-solutions holds per-solution demo
+      api-spec.yaml templates. Crediting any of these would attribute a third party's contract to this
+      provider.
+    helix_is_a_fork: helix-gateway-fork is fork=true with parent=apache/apisix. The product documentation
+      calls the gateway "Helix". Recorded as a fact about what the platform is built on, not as a criticism
+      — building on APISIX is common and legitimate.
