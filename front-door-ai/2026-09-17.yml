@@ -1,0 +1,34 @@
+# Front Door AI Index — digitalapi — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: digitalapi
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.digitalapi.ai
+  final_host: www.digitalapi.ai
+  ownership: own
+  owner: digitalapi
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 68
+  host_score: 68
+  density: 35.47
+  words: 1917
+  tiers:
+    agentic: 51
+    core: 13
+    model: 4
+  ambiguous: 35
+  top_terms:
+    MCP: 38
+    agent: 35
+    AI: 12
+    AI agent: 7
+    copilot: 5
+    GPT: 2
+    Claude: 1
+    Gemini: 1
+    LLMs: 1
+    agentic: 1
